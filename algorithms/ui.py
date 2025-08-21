@@ -462,14 +462,6 @@ class Root(tk.Tk):
                 self.ax.plot(sorted_sizes, p(sorted_sizes), 
                             color=ColorPalette.get_hex("Spring Green"), alpha=0.5, linestyle='--')
         
-        # Set plot properties
-        self.ax.set_title("Algorithm Performance: Time vs Array Size", color=ColorPalette.get_hex("Denim Blue"))
-        self.ax.set_xlabel("Array Size", color=ColorPalette.get_hex("Denim Blue"))
-        self.ax.set_ylabel("Time (ms)", color=ColorPalette.get_hex("Denim Blue"))
-        self.ax.legend()
-        self.ax.grid(True, color=ColorPalette.get_hex("Baby Blue"), alpha=0.3)
-        
-
         if self.search_history['sorted_linear']['times']:
             self.ax.scatter(
                 self.search_history['sorted_linear']['sizes'],
@@ -486,6 +478,15 @@ class Root(tk.Tk):
             sorted_sizes = sorted(self.search_history['sorted_linear']['sizes'])
             self.ax.plot(sorted_sizes, p(sorted_sizes),
                         color=ColorPalette.get_hex("Denim Blue"), alpha=0.5, linestyle='--')
+            
+        # Set plot properties
+        self.ax.set_title("Algorithm Performance: Time vs Array Size", color=ColorPalette.get_hex("Denim Blue"))
+        self.ax.set_xlabel("Array Size", color=ColorPalette.get_hex("Denim Blue"))
+        self.ax.set_ylabel("Time (ms)", color=ColorPalette.get_hex("Denim Blue"))
+        self.ax.legend()
+        self.ax.grid(True, color=ColorPalette.get_hex("Baby Blue"), alpha=0.3)
+        
+
 
         # Update canvas
         self.canvas.draw()
@@ -549,7 +550,3 @@ class Root(tk.Tk):
 
     def run(self):
         self.mainloop()
-
-if __name__ == "__main__":
-    app = Root()
-    app.run()
