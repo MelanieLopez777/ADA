@@ -1,0 +1,1391 @@
+
+(base) C:\Users\alems>conda create -n <cEnv>
+La sintaxis del comando no es correcta.
+
+(base) C:\Users\alems>conda create -n cEnv
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/main? [(a)ccept/(r)eject/(v)iew]: a
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/r? [(a)ccept/(r)eject/(v)iew]: a
+Do you accept the Terms of Service (ToS) for https://repo.anaconda.com/pkgs/msys2? [(a)ccept/(r)eject/(v)iew]: a
+3 channel Terms of Service accepted
+Retrieving notices: done
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\cEnv
+
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate cEnv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\alems>conda activate cEnv
+
+(cEnv) C:\Users\alems>conda install -c conda-forge scikit-learn numpy pandas matplotlib
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\cEnv
+
+  added / updated specs:
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit-learn
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |            2_gnu          48 KB  conda-forge
+    brotli-1.1.0               |       hfd05255_4          20 KB  conda-forge
+    brotli-bin-1.1.0           |       hfd05255_4          21 KB  conda-forge
+    bzip2-1.0.8                |       h0ad9c76_8          55 KB  conda-forge
+    ca-certificates-2025.8.3   |       h4c7d964_0         151 KB  conda-forge
+    cairo-1.18.4               |       h5782bbf_0         1.5 MB  conda-forge
+    contourpy-1.3.3            |  py313hf069bd2_2         220 KB  conda-forge
+    cycler-0.12.1              |     pyhd8ed1ab_1          13 KB  conda-forge
+    double-conversion-3.3.1    |       he0c23c2_0          70 KB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.15.0          |       h765892d_1         188 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    fonttools-4.60.1           |  py313hd650c13_0         2.4 MB  conda-forge
+    freetype-2.14.1            |       h57928b3_0         180 KB  conda-forge
+    graphite2-1.3.14           |       hac47afa_2          94 KB  conda-forge
+    harfbuzz-12.1.0            |       h5f2951f_0         1.1 MB  conda-forge
+    icu-75.1                   |       he0c23c2_0        13.9 MB  conda-forge
+    joblib-1.5.2               |     pyhd8ed1ab_0         219 KB  conda-forge
+    kiwisolver-1.4.9           |  py313h1a38498_1          72 KB  conda-forge
+    krb5-1.21.3                |       hdf4eb48_0         695 KB  conda-forge
+    lcms2-2.17                 |       hbcf6048_0         499 KB  conda-forge
+    lerc-4.0.0                 |       h6470a55_1         161 KB  conda-forge
+    libblas-3.9.0              |  35_h5709861_mkl          64 KB  conda-forge
+    libbrotlicommon-1.1.0      |       hfd05255_4          70 KB  conda-forge
+    libbrotlidec-1.1.0         |       hfd05255_4          33 KB  conda-forge
+    libbrotlienc-1.1.0         |       hfd05255_4         240 KB  conda-forge
+    libcblas-3.9.0             |  35_h2a3cdd5_mkl          65 KB  conda-forge
+    libclang13-21.1.2          |default_ha2db4b5_1        27.6 MB  conda-forge
+    libdeflate-1.24            |       h76ddb4d_0         153 KB  conda-forge
+    libexpat-2.7.1             |       hac47afa_0         138 KB  conda-forge
+    libffi-3.4.6               |       h537db12_1          44 KB  conda-forge
+    libfreetype-2.14.1         |       h57928b3_0           8 KB  conda-forge
+    libfreetype6-2.14.1        |       hdbac1cb_0         332 KB  conda-forge
+    libgcc-15.1.0              |       h1383e82_5         653 KB  conda-forge
+    libglib-2.86.0             |       h5f26cbf_0         3.6 MB  conda-forge
+    libgomp-15.1.0             |       h1383e82_5         523 KB  conda-forge
+    libhwloc-2.12.1            |default_h64bd3f2_1002         2.3 MB  conda-forge
+    libiconv-1.18              |       hc1393d2_2         681 KB  conda-forge
+    libintl-0.22.5             |       h5728263_3          93 KB  conda-forge
+    libjpeg-turbo-3.1.0        |       h2466b09_0         819 KB  conda-forge
+    liblapack-3.9.0            |  35_hf9ab0e9_mkl          77 KB  conda-forge
+    liblzma-5.8.1              |       h2466b09_2         102 KB  conda-forge
+    libmpdec-4.0.0             |       h2466b09_0          87 KB  conda-forge
+    libpng-1.6.50              |       h7351971_1         374 KB  conda-forge
+    libsqlite-3.50.4           |       hf5d6505_0         1.2 MB  conda-forge
+    libtiff-4.7.1              |       h550210a_0         969 KB  conda-forge
+    libvulkan-loader-1.4.313.0 |       h477610d_1         266 KB  conda-forge
+    libwebp-base-1.6.0         |       h4d5522a_0         273 KB  conda-forge
+    libwinpthread-12.0.0.r4.gg4f2fc60ca|       h57928b3_9          35 KB  conda-forge
+    libxcb-1.17.0              |       h0e4246c_0         1.2 MB  conda-forge
+    libxml2-2.15.0             |       ha29bfb0_1          42 KB  conda-forge
+    libxml2-16-2.15.0          |       h06f855e_1         507 KB  conda-forge
+    libxslt-1.1.43             |       h0fbe4c1_1         410 KB  conda-forge
+    libzlib-1.3.1              |       h2466b09_2          54 KB  conda-forge
+    llvm-openmp-21.1.2         |       hfa2b4ca_3         340 KB  conda-forge
+    matplotlib-3.10.6          |  py313hfa70ccb_1          17 KB  conda-forge
+    matplotlib-base-3.10.6     |  py313he1ded55_1         7.7 MB  conda-forge
+    mkl-2024.2.2               |      h57928b3_16        98.3 MB  conda-forge
+    munkres-1.1.4              |     pyhd8ed1ab_1          15 KB  conda-forge
+    numpy-2.3.3                |  py313hce7ae62_0         7.1 MB  conda-forge
+    openjpeg-2.5.4             |       h24db6dd_0         239 KB  conda-forge
+    openssl-3.5.4              |       h725018a_0         8.8 MB  conda-forge
+    packaging-25.0             |     pyh29332c3_1          61 KB  conda-forge
+    pandas-2.3.3               |  py313hc90dcd4_1        13.3 MB  conda-forge
+    pcre2-10.46                |       h3402e2f_0        1010 KB  conda-forge
+    pillow-11.3.0              |  py313hf455b62_3         922 KB  conda-forge
+    pip-25.2                   |     pyh145f28c_0         1.1 MB  conda-forge
+    pixman-0.46.4              |       h5112557_1         530 KB  conda-forge
+    pthread-stubs-0.4          |    h0e40799_1002           9 KB  conda-forge
+    pyparsing-3.2.5            |     pyhcf101f3_0         102 KB  conda-forge
+    pyside6-6.9.3              |  py313h475ba69_1         8.5 MB  conda-forge
+    python-3.13.7              |hdf00ec1_100_cp313        15.6 MB  conda-forge
+    python-dateutil-2.9.0.post0|     pyhe01879c_2         228 KB  conda-forge
+    python-tzdata-2025.2       |     pyhd8ed1ab_0         141 KB  conda-forge
+    python_abi-3.13            |          8_cp313           7 KB  conda-forge
+    pytz-2025.2                |     pyhd8ed1ab_0         185 KB  conda-forge
+    qhull-2020.2               |       hc790b64_5         1.3 MB  conda-forge
+    qt6-main-6.9.3             |       ha0de62e_0        91.9 MB  conda-forge
+    scikit-learn-1.7.2         |  py313he28f1d7_0         8.4 MB  conda-forge
+    scipy-1.16.2               |  py313h62a08ca_0        14.6 MB  conda-forge
+    setuptools-80.9.0          |     pyhff2d567_0         731 KB  conda-forge
+    six-1.17.0                 |     pyhe01879c_1          18 KB  conda-forge
+    tbb-2021.13.0              |       h18a62a1_3         147 KB  conda-forge
+    threadpoolctl-3.6.0        |     pyhecae5ae_0          23 KB  conda-forge
+    tk-8.6.13                  |       h2c6b04d_2         3.3 MB  conda-forge
+    tornado-6.5.2              |  py313h5ea7bf4_1         856 KB  conda-forge
+    tzdata-2025b               |       h78e105d_0         120 KB  conda-forge
+    ucrt-10.0.26100.0          |       h57928b3_0         678 KB  conda-forge
+    vc-14.3                    |      h41ae7f8_31          18 KB  conda-forge
+    vc14_runtime-14.44.35208   |      h818238b_31         666 KB  conda-forge
+    vcomp14-14.44.35208        |      h818238b_31         111 KB  conda-forge
+    xorg-libxau-1.0.12         |       h0e40799_0         105 KB  conda-forge
+    xorg-libxdmcp-1.1.5        |       h0e40799_0          68 KB  conda-forge
+    zstd-1.5.7                 |       hbeecb71_2         346 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       354.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/win-64::_openmp_mutex-4.5-2_gnu
+  brotli             conda-forge/win-64::brotli-1.1.0-hfd05255_4
+  brotli-bin         conda-forge/win-64::brotli-bin-1.1.0-hfd05255_4
+  bzip2              conda-forge/win-64::bzip2-1.0.8-h0ad9c76_8
+  ca-certificates    conda-forge/noarch::ca-certificates-2025.8.3-h4c7d964_0
+  cairo              conda-forge/win-64::cairo-1.18.4-h5782bbf_0
+  contourpy          conda-forge/win-64::contourpy-1.3.3-py313hf069bd2_2
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_1
+  double-conversion  conda-forge/win-64::double-conversion-3.3.1-he0c23c2_0
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3
+  fontconfig         conda-forge/win-64::fontconfig-2.15.0-h765892d_1
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0
+  fonttools          conda-forge/win-64::fonttools-4.60.1-py313hd650c13_0
+  freetype           conda-forge/win-64::freetype-2.14.1-h57928b3_0
+  graphite2          conda-forge/win-64::graphite2-1.3.14-hac47afa_2
+  harfbuzz           conda-forge/win-64::harfbuzz-12.1.0-h5f2951f_0
+  icu                conda-forge/win-64::icu-75.1-he0c23c2_0
+  joblib             conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0
+  kiwisolver         conda-forge/win-64::kiwisolver-1.4.9-py313h1a38498_1
+  krb5               conda-forge/win-64::krb5-1.21.3-hdf4eb48_0
+  lcms2              conda-forge/win-64::lcms2-2.17-hbcf6048_0
+  lerc               conda-forge/win-64::lerc-4.0.0-h6470a55_1
+  libblas            conda-forge/win-64::libblas-3.9.0-35_h5709861_mkl
+  libbrotlicommon    conda-forge/win-64::libbrotlicommon-1.1.0-hfd05255_4
+  libbrotlidec       conda-forge/win-64::libbrotlidec-1.1.0-hfd05255_4
+  libbrotlienc       conda-forge/win-64::libbrotlienc-1.1.0-hfd05255_4
+  libcblas           conda-forge/win-64::libcblas-3.9.0-35_h2a3cdd5_mkl
+  libclang13         conda-forge/win-64::libclang13-21.1.2-default_ha2db4b5_1
+  libdeflate         conda-forge/win-64::libdeflate-1.24-h76ddb4d_0
+  libexpat           conda-forge/win-64::libexpat-2.7.1-hac47afa_0
+  libffi             conda-forge/win-64::libffi-3.4.6-h537db12_1
+  libfreetype        conda-forge/win-64::libfreetype-2.14.1-h57928b3_0
+  libfreetype6       conda-forge/win-64::libfreetype6-2.14.1-hdbac1cb_0
+  libgcc             conda-forge/win-64::libgcc-15.1.0-h1383e82_5
+  libglib            conda-forge/win-64::libglib-2.86.0-h5f26cbf_0
+  libgomp            conda-forge/win-64::libgomp-15.1.0-h1383e82_5
+  libhwloc           conda-forge/win-64::libhwloc-2.12.1-default_h64bd3f2_1002
+  libiconv           conda-forge/win-64::libiconv-1.18-hc1393d2_2
+  libintl            conda-forge/win-64::libintl-0.22.5-h5728263_3
+  libjpeg-turbo      conda-forge/win-64::libjpeg-turbo-3.1.0-h2466b09_0
+  liblapack          conda-forge/win-64::liblapack-3.9.0-35_hf9ab0e9_mkl
+  liblzma            conda-forge/win-64::liblzma-5.8.1-h2466b09_2
+  libmpdec           conda-forge/win-64::libmpdec-4.0.0-h2466b09_0
+  libpng             conda-forge/win-64::libpng-1.6.50-h7351971_1
+  libsqlite          conda-forge/win-64::libsqlite-3.50.4-hf5d6505_0
+  libtiff            conda-forge/win-64::libtiff-4.7.1-h550210a_0
+  libvulkan-loader   conda-forge/win-64::libvulkan-loader-1.4.313.0-h477610d_1
+  libwebp-base       conda-forge/win-64::libwebp-base-1.6.0-h4d5522a_0
+  libwinpthread      conda-forge/win-64::libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_9
+  libxcb             conda-forge/win-64::libxcb-1.17.0-h0e4246c_0
+  libxml2            conda-forge/win-64::libxml2-2.15.0-ha29bfb0_1
+  libxml2-16         conda-forge/win-64::libxml2-16-2.15.0-h06f855e_1
+  libxslt            conda-forge/win-64::libxslt-1.1.43-h0fbe4c1_1
+  libzlib            conda-forge/win-64::libzlib-1.3.1-h2466b09_2
+  llvm-openmp        conda-forge/win-64::llvm-openmp-21.1.2-hfa2b4ca_3
+  matplotlib         conda-forge/win-64::matplotlib-3.10.6-py313hfa70ccb_1
+  matplotlib-base    conda-forge/win-64::matplotlib-base-3.10.6-py313he1ded55_1
+  mkl                conda-forge/win-64::mkl-2024.2.2-h57928b3_16
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1
+  numpy              conda-forge/win-64::numpy-2.3.3-py313hce7ae62_0
+  openjpeg           conda-forge/win-64::openjpeg-2.5.4-h24db6dd_0
+  openssl            conda-forge/win-64::openssl-3.5.4-h725018a_0
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1
+  pandas             conda-forge/win-64::pandas-2.3.3-py313hc90dcd4_1
+  pcre2              conda-forge/win-64::pcre2-10.46-h3402e2f_0
+  pillow             conda-forge/win-64::pillow-11.3.0-py313hf455b62_3
+  pip                conda-forge/noarch::pip-25.2-pyh145f28c_0
+  pixman             conda-forge/win-64::pixman-0.46.4-h5112557_1
+  pthread-stubs      conda-forge/win-64::pthread-stubs-0.4-h0e40799_1002
+  pyparsing          conda-forge/noarch::pyparsing-3.2.5-pyhcf101f3_0
+  pyside6            conda-forge/win-64::pyside6-6.9.3-py313h475ba69_1
+  python             conda-forge/win-64::python-3.13.7-hdf00ec1_100_cp313
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2
+  python-tzdata      conda-forge/noarch::python-tzdata-2025.2-pyhd8ed1ab_0
+  python_abi         conda-forge/noarch::python_abi-3.13-8_cp313
+  pytz               conda-forge/noarch::pytz-2025.2-pyhd8ed1ab_0
+  qhull              conda-forge/win-64::qhull-2020.2-hc790b64_5
+  qt6-main           conda-forge/win-64::qt6-main-6.9.3-ha0de62e_0
+  scikit-learn       conda-forge/win-64::scikit-learn-1.7.2-py313he28f1d7_0
+  scipy              conda-forge/win-64::scipy-1.16.2-py313h62a08ca_0
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1
+  tbb                conda-forge/win-64::tbb-2021.13.0-h18a62a1_3
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0
+  tk                 conda-forge/win-64::tk-8.6.13-h2c6b04d_2
+  tornado            conda-forge/win-64::tornado-6.5.2-py313h5ea7bf4_1
+  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0
+  ucrt               conda-forge/win-64::ucrt-10.0.26100.0-h57928b3_0
+  vc                 conda-forge/win-64::vc-14.3-h41ae7f8_31
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.44.35208-h818238b_31
+  vcomp14            conda-forge/win-64::vcomp14-14.44.35208-h818238b_31
+  xorg-libxau        conda-forge/win-64::xorg-libxau-1.0.12-h0e40799_0
+  xorg-libxdmcp      conda-forge/win-64::xorg-libxdmcp-1.1.5-h0e40799_0
+  zstd               conda-forge/win-64::zstd-1.5.7-hbeecb71_2
+
+
+Proceed ([y]/n)?
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(cEnv) C:\Users\alems> cd Downloads
+
+(cEnv) C:\Users\alems\Downloads>cd ADA\cluster
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Normalizando y aplicando PCA...
+Determinando el número óptimo de subcategorías...
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+
+Número óptimo de clusters según Silhouette: 4
+Agrupando imágenes en 4 subcategorías...
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 97, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 3550, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 657, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 1660, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\sklearn\cluster\_kmeans.py:1419: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=4.
+  warnings.warn(
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 64, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 3550, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 657, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 1660, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 66, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 3550, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 657, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 1660, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda remove libiomp5 --force
+3 channel Terms of Service accepted
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - libiomp5
+
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install llvm-openmp
+3 channel Terms of Service accepted
+Channels:
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\cEnv
+
+  added / updated specs:
+    - llvm-openmp
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2025.9.9   |       haa95532_0         127 KB
+    ------------------------------------------------------------
+                                           Total:         127 KB
+
+The following packages will be UPDATED:
+
+  ca-certificates    conda-forge/noarch::ca-certificates-2~ --> pkgs/main/win-64::ca-certificates-2025.9.9-haa95532_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 66, in <module>
+    plt.show()
+    ~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\pyplot.py", line 614, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 3550, in show
+    cls.mainloop()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 657, in start_main_loop
+    with _allow_interrupt_qt(qapp):
+         ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\matplotlib\backend_bases.py", line 1660, in _allow_interrupt
+    old_sigint_handler(*handler_args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda remove mkl mkl-service --force
+3 channel Terms of Service accepted
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - mkl-service
+
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install numpy scipy scikit-learn -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+# All requested packages already installed.
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda list | findstr mkl
+libblas                      3.9.0                  35_h5709861_mkl        conda-forge
+libcblas                     3.9.0                  35_h2a3cdd5_mkl        conda-forge
+liblapack                    3.9.0                  35_hf9ab0e9_mkl        conda-forge
+mkl                          2024.2.2               h57928b3_16            conda-forge
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda remove mkl libblas libcblas liblapack --force
+3 channel Terms of Service accepted
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\cEnv
+
+  removed specs:
+    - libblas
+    - libcblas
+    - liblapack
+    - mkl
+
+
+The following packages will be REMOVED:
+
+  libblas-3.9.0-35_h5709861_mkl
+  libcblas-3.9.0-35_h2a3cdd5_mkl
+  liblapack-3.9.0-35_hf9ab0e9_mkl
+  mkl-2024.2.2-h57928b3_16
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install numpy scipy scikit-learn -c conda-forge --no-deps
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+# All requested packages already installed.
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install libblas=3.9.0=16_openblas liblapack=3.9.0=16_openblas -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - libblas==3.9.0=16_openblas
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install libblas=3.9.0=16_openblas liblapack=3.9.0=16_openblas -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - libblas==3.9.0=16_openblas
+
+Current channels:
+
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda remove --force mkl mkl-service libblas libcblas liblapack
+3 channel Terms of Service accepted
+
+PackagesNotFoundError: The following packages are missing from the target environment:
+  - libcblas
+  - mkl-service
+  - liblapack
+  - mkl
+  - libblas
+
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install "libblas=*=*openblas" "liblapack=*=*openblas" numpy scipy scikit-learn -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\cEnv
+
+  added / updated specs:
+    - libblas[build=*openblas]
+    - liblapack[build=*openblas]
+    - numpy
+    - scikit-learn
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libblas-3.9.0              |36_h0adab6e_openblas          65 KB  conda-forge
+    liblapack-3.9.0            |36_hd232482_openblas          77 KB  conda-forge
+    libopenblas-0.3.30         |pthreads_ha4fe6b2_2         3.8 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.9 MB
+
+The following NEW packages will be INSTALLED:
+
+  libblas            conda-forge/win-64::libblas-3.9.0-36_h0adab6e_openblas
+  liblapack          conda-forge/win-64::liblapack-3.9.0-36_hd232482_openblas
+  libopenblas        conda-forge/win-64::libopenblas-0.3.30-pthreads_ha4fe6b2_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda list | findstr mkl
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda list | findstr openblas
+libblas                      3.9.0                  36_h0adab6e_openblas   conda-forge
+liblapack                    3.9.0                  36_hd232482_openblas   conda-forge
+libopenblas                  0.3.30                 pthreads_ha4fe6b2_2    conda-forge
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda clean --all -y
+Will remove 102 (358.5 MB) tarball(s).
+Will remove 1 index cache(s).
+Will remove 13 (446.6 MB) package(s).
+There are no tempfile(s) to remove.
+There are no logfile(s) to remove.
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 3, in <module>
+    import pandas as pd
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\pandas\__init__.py", line 19, in <module>
+    raise ImportError(
+        "Unable to import required dependencies:\n" + "\n".join(_missing_dependencies)
+    )
+ImportError: Unable to import required dependencies:
+numpy: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>pip uninstall numpy -y
+Found existing installation: numpy 2.3.3
+Uninstalling numpy-2.3.3:
+  Successfully uninstalled numpy-2.3.3
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda install numpy -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+# All requested packages already installed.
+
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 3, in <module>
+    import pandas as pd
+  File "C:\Users\alems\.conda\envs\cEnv\Lib\site-packages\pandas\__init__.py", line 19, in <module>
+    raise ImportError(
+        "Unable to import required dependencies:\n" + "\n".join(_missing_dependencies)
+    )
+ImportError: Unable to import required dependencies:
+numpy: No module named 'numpy'
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda deactive
+usage: conda-script.py [-h] [-v] [--no-plugins] [-V] COMMAND ...
+conda-script.py: error: argument COMMAND: invalid choice: 'deactive' (choose from activate, clean, commands, compare, config, content-trust, create, deactivate, doctor, env, export, info, init, install, list, notices, package, remove, rename, repoquery, run, search, token, tos, uninstall, update, upgrade)
+
+(cEnv) C:\Users\alems\Downloads\ADA\cluster>conda deactivate
+
+(base) C:\Users\alems\Downloads\ADA\cluster>conda create -n mnistEnv python=3.10 numpy scipy scikit-learn matplotlib pandas -c conda-forge
+3 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: win-64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\alems\.conda\envs\mnistEnv
+
+  added / updated specs:
+    - matplotlib
+    - numpy
+    - pandas
+    - python=3.10
+    - scikit-learn
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |            2_gnu          48 KB  conda-forge
+    ca-certificates-2025.8.3   |       h4c7d964_0         151 KB  conda-forge
+    contourpy-1.3.2            |  py310hc19bc0b_0         196 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    fonttools-4.60.1           |  py310hdb0e946_0         1.9 MB  conda-forge
+    kiwisolver-1.4.9           |  py310h1e1005b_1          72 KB  conda-forge
+    libblas-3.9.0              |  35_h5709861_mkl          64 KB  conda-forge
+    libcblas-3.9.0             |  35_h2a3cdd5_mkl          65 KB  conda-forge
+    libfreetype-2.14.1         |       h57928b3_0           8 KB  conda-forge
+    liblapack-3.9.0            |  35_hf9ab0e9_mkl          77 KB  conda-forge
+    matplotlib-3.10.6          |  py310h5588dad_1          17 KB  conda-forge
+    matplotlib-base-3.10.6     |  py310h0bdd906_1         6.8 MB  conda-forge
+    mkl-2024.2.2               |      h57928b3_16        98.3 MB  conda-forge
+    numpy-2.2.6                |  py310h4987827_0         6.3 MB  conda-forge
+    pandas-2.3.3               |  py310hed136d8_1        11.1 MB  conda-forge
+    pillow-11.3.0              |  py310hb3a2f59_3         768 KB  conda-forge
+    pip-25.2                   |     pyh8b19718_0         1.1 MB  conda-forge
+    pthread-stubs-0.4          |    h0e40799_1002           9 KB  conda-forge
+    pyside6-6.9.3              |  py310h96c60bd_1         8.5 MB  conda-forge
+    python-3.10.18             |h8c5b53a_0_cpython        15.1 MB  conda-forge
+    python_abi-3.10            |          8_cp310           7 KB  conda-forge
+    scikit-learn-1.7.2         |  py310h21054b0_0         7.3 MB  conda-forge
+    scipy-1.15.2               |  py310h15c175c_0        13.7 MB  conda-forge
+    tornado-6.5.2              |  py310h29418f3_1         648 KB  conda-forge
+    unicodedata2-16.0.0        |  py310h29418f3_1         392 KB  conda-forge
+    vc-14.3                    |      h41ae7f8_31          18 KB  conda-forge
+    wheel-0.45.1               |     pyhd8ed1ab_1          61 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       172.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/win-64::_openmp_mutex-4.5-2_gnu
+  brotli             conda-forge/win-64::brotli-1.1.0-hfd05255_4
+  brotli-bin         conda-forge/win-64::brotli-bin-1.1.0-hfd05255_4
+  bzip2              conda-forge/win-64::bzip2-1.0.8-h0ad9c76_8
+  ca-certificates    conda-forge/noarch::ca-certificates-2025.8.3-h4c7d964_0
+  cairo              conda-forge/win-64::cairo-1.18.4-h5782bbf_0
+  contourpy          conda-forge/win-64::contourpy-1.3.2-py310hc19bc0b_0
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_1
+  double-conversion  conda-forge/win-64::double-conversion-3.3.1-he0c23c2_0
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3
+  fontconfig         conda-forge/win-64::fontconfig-2.15.0-h765892d_1
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0
+  fonttools          conda-forge/win-64::fonttools-4.60.1-py310hdb0e946_0
+  freetype           conda-forge/win-64::freetype-2.14.1-h57928b3_0
+  graphite2          conda-forge/win-64::graphite2-1.3.14-hac47afa_2
+  harfbuzz           conda-forge/win-64::harfbuzz-12.1.0-h5f2951f_0
+  icu                conda-forge/win-64::icu-75.1-he0c23c2_0
+  joblib             conda-forge/noarch::joblib-1.5.2-pyhd8ed1ab_0
+  kiwisolver         conda-forge/win-64::kiwisolver-1.4.9-py310h1e1005b_1
+  krb5               conda-forge/win-64::krb5-1.21.3-hdf4eb48_0
+  lcms2              conda-forge/win-64::lcms2-2.17-hbcf6048_0
+  lerc               conda-forge/win-64::lerc-4.0.0-h6470a55_1
+  libblas            conda-forge/win-64::libblas-3.9.0-35_h5709861_mkl
+  libbrotlicommon    conda-forge/win-64::libbrotlicommon-1.1.0-hfd05255_4
+  libbrotlidec       conda-forge/win-64::libbrotlidec-1.1.0-hfd05255_4
+  libbrotlienc       conda-forge/win-64::libbrotlienc-1.1.0-hfd05255_4
+  libcblas           conda-forge/win-64::libcblas-3.9.0-35_h2a3cdd5_mkl
+  libclang13         conda-forge/win-64::libclang13-21.1.2-default_ha2db4b5_1
+  libdeflate         conda-forge/win-64::libdeflate-1.24-h76ddb4d_0
+  libexpat           conda-forge/win-64::libexpat-2.7.1-hac47afa_0
+  libffi             conda-forge/win-64::libffi-3.4.6-h537db12_1
+  libfreetype        conda-forge/win-64::libfreetype-2.14.1-h57928b3_0
+  libfreetype6       conda-forge/win-64::libfreetype6-2.14.1-hdbac1cb_0
+  libgcc             conda-forge/win-64::libgcc-15.1.0-h1383e82_5
+  libglib            conda-forge/win-64::libglib-2.86.0-h5f26cbf_0
+  libgomp            conda-forge/win-64::libgomp-15.1.0-h1383e82_5
+  libhwloc           conda-forge/win-64::libhwloc-2.12.1-default_h64bd3f2_1002
+  libiconv           conda-forge/win-64::libiconv-1.18-hc1393d2_2
+  libintl            conda-forge/win-64::libintl-0.22.5-h5728263_3
+  libjpeg-turbo      conda-forge/win-64::libjpeg-turbo-3.1.0-h2466b09_0
+  liblapack          conda-forge/win-64::liblapack-3.9.0-35_hf9ab0e9_mkl
+  liblzma            conda-forge/win-64::liblzma-5.8.1-h2466b09_2
+  libpng             conda-forge/win-64::libpng-1.6.50-h7351971_1
+  libsqlite          conda-forge/win-64::libsqlite-3.50.4-hf5d6505_0
+  libtiff            conda-forge/win-64::libtiff-4.7.1-h550210a_0
+  libvulkan-loader   conda-forge/win-64::libvulkan-loader-1.4.313.0-h477610d_1
+  libwebp-base       conda-forge/win-64::libwebp-base-1.6.0-h4d5522a_0
+  libwinpthread      conda-forge/win-64::libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_9
+  libxcb             conda-forge/win-64::libxcb-1.17.0-h0e4246c_0
+  libxml2            conda-forge/win-64::libxml2-2.15.0-ha29bfb0_1
+  libxml2-16         conda-forge/win-64::libxml2-16-2.15.0-h06f855e_1
+  libxslt            conda-forge/win-64::libxslt-1.1.43-h0fbe4c1_1
+  libzlib            conda-forge/win-64::libzlib-1.3.1-h2466b09_2
+  llvm-openmp        conda-forge/win-64::llvm-openmp-21.1.2-hfa2b4ca_3
+  matplotlib         conda-forge/win-64::matplotlib-3.10.6-py310h5588dad_1
+  matplotlib-base    conda-forge/win-64::matplotlib-base-3.10.6-py310h0bdd906_1
+  mkl                conda-forge/win-64::mkl-2024.2.2-h57928b3_16
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1
+  numpy              conda-forge/win-64::numpy-2.2.6-py310h4987827_0
+  openjpeg           conda-forge/win-64::openjpeg-2.5.4-h24db6dd_0
+  openssl            conda-forge/win-64::openssl-3.5.4-h725018a_0
+  packaging          conda-forge/noarch::packaging-25.0-pyh29332c3_1
+  pandas             conda-forge/win-64::pandas-2.3.3-py310hed136d8_1
+  pcre2              conda-forge/win-64::pcre2-10.46-h3402e2f_0
+  pillow             conda-forge/win-64::pillow-11.3.0-py310hb3a2f59_3
+  pip                conda-forge/noarch::pip-25.2-pyh8b19718_0
+  pixman             conda-forge/win-64::pixman-0.46.4-h5112557_1
+  pthread-stubs      conda-forge/win-64::pthread-stubs-0.4-h0e40799_1002
+  pyparsing          conda-forge/noarch::pyparsing-3.2.5-pyhcf101f3_0
+  pyside6            conda-forge/win-64::pyside6-6.9.3-py310h96c60bd_1
+  python             conda-forge/win-64::python-3.10.18-h8c5b53a_0_cpython
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2
+  python-tzdata      conda-forge/noarch::python-tzdata-2025.2-pyhd8ed1ab_0
+  python_abi         conda-forge/noarch::python_abi-3.10-8_cp310
+  pytz               conda-forge/noarch::pytz-2025.2-pyhd8ed1ab_0
+  qhull              conda-forge/win-64::qhull-2020.2-hc790b64_5
+  qt6-main           conda-forge/win-64::qt6-main-6.9.3-ha0de62e_0
+  scikit-learn       conda-forge/win-64::scikit-learn-1.7.2-py310h21054b0_0
+  scipy              conda-forge/win-64::scipy-1.15.2-py310h15c175c_0
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1
+  tbb                conda-forge/win-64::tbb-2021.13.0-h18a62a1_3
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.6.0-pyhecae5ae_0
+  tk                 conda-forge/win-64::tk-8.6.13-h2c6b04d_2
+  tornado            conda-forge/win-64::tornado-6.5.2-py310h29418f3_1
+  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0
+  ucrt               conda-forge/win-64::ucrt-10.0.26100.0-h57928b3_0
+  unicodedata2       conda-forge/win-64::unicodedata2-16.0.0-py310h29418f3_1
+  vc                 conda-forge/win-64::vc-14.3-h41ae7f8_31
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.44.35208-h818238b_31
+  vcomp14            conda-forge/win-64::vcomp14-14.44.35208-h818238b_31
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1
+  xorg-libxau        conda-forge/win-64::xorg-libxau-1.0.12-h0e40799_0
+  xorg-libxdmcp      conda-forge/win-64::xorg-libxdmcp-1.1.5-h0e40799_0
+  zstd               conda-forge/win-64::zstd-1.5.7-hbeecb71_2
+
+
+Proceed ([y]/n)? conda activate mnistEnv
+Invalid choice: conda activate mnistenv
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate mnistEnv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+
+(base) C:\Users\alems\Downloads\ADA\cluster>conda activate mnistEnv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Bolsa.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Camiseta/top'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 80, in <module>
+    subset.to_csv(output, index=False)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'fashionmnist_sub_Camiseta'
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Camiseta/top'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 80, in <module>
+    subset.to_csv(output, index=False)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'fashionmnist_sub_Camiseta'
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Camiseta'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Camiseta.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Pantalon'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+Traceback (most recent call last):
+  File "C:\Users\alems\Downloads\ADA\cluster\subcategorias_auto_fashion_mnist.py", line 57, in <module>
+    cluster_imgs = subset[subset['cluster'] == cluster_id].sample(9, random_state=42)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\core\generic.py", line 6140, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\pandas\core\sample.py", line 152, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "numpy/random/mtrand.pyx", line 1020, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Pantalon'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Pantalon.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Pullover'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Pullover.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Vestido'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Vestido.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Vestido'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Vestido.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Abrigo'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Abrigo.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Sandalia'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Sandalia.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Camisa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Camisa.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Zapatilla deportiva'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Zapatilla_deportiva.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bolsa'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Bolsa.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Bota'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Bota.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Camiseta'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Camiseta.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>python subcategorias_auto_fashion_mnist.py
+Cargando datos...
+Se seleccionaron 1000 ejemplos de la categoría 'Pantalon'
+Reduciendo dimensionalidad (PCA)...
+Agrupando en 4 clusters...
+C:\Users\alems\.conda\envs\mnistEnv\lib\site-packages\threadpoolctl.py:1226: RuntimeWarning:
+Found Intel OpenMP ('libiomp') and LLVM OpenMP ('libomp') loaded at
+the same time. Both libraries are known to be incompatible and this
+can cause random crashes or deadlocks on Linux when loaded in the
+same Python program.
+Using threadpoolctl may cause crashes or deadlocks. For more
+information and possible workarounds, please see
+    https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md
+
+  warnings.warn(msg, RuntimeWarning)
+Mostrando ejemplos de cada cluster...
+
+
+Archivo guardado como: fashionmnist_sub_Pantalon.csv
+
+(mnistEnv) C:\Users\alems\Downloads\ADA\cluster>
